@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-html-template",
+  "version": "0.0.1",
+  "description": "Tailwind with plain HTML",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmcneel/tailwind-html-template.git"
+  },
+  "author": "Latisha McNeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmcneel/tailwind-html-template/issues"
+  },
+  "homepage": "https://github.com/lmcneel/tailwind-html-template#readme"
+}
