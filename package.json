@@ -4,8 +4,8 @@
   "description": "Tailwind with plain HTML",
   "main": "index.html",
   "scripts": {
-    "build-css": "tailwindcss build -i ./src/styles/app.css -o ./assets/styles/app.css",
-    "watch-css": "tailwindcss build -i ./src/styles/app.css -o ./assets/styles/app.css --watch",
+    "build-css": "tailwindcss build -i ./src/styles/app.css -o ./public/assets/styles/app.css",
+    "watch-css": "tailwindcss build -i ./src/styles/app.css -o ./public/assets/styles/app.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
