@@ -4,6 +4,8 @@
   "description": "Tailwind with plain HTML",
   "main": "index.html",
   "scripts": {
+    "build-css": "tailwindcss build -i ./src/styles/app.css -o ./assets/styles/app.css",
+    "watch-css": "tailwindcss build -i ./src/styles/app.css -o ./assets/styles/app.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lmcneel/tailwind-html-template/issues"
   },
-  "homepage": "https://github.com/lmcneel/tailwind-html-template#readme"
+  "homepage": "https://github.com/lmcneel/tailwind-html-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
 }
